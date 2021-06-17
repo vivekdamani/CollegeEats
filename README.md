@@ -1,4 +1,4 @@
-###CollegeEats
+### CollegeEats
 <p>
 <img src="https://github.com/vivekdamani/CollegeEats/blob/master/CollegeEatsIcon.jpeg" width="400px"><br>This application is a swift medium to connect college canteen with staff and students of college. Users can login to the app and have a personalized experience.The app allows all the users to order food and get delieverd at their location with tracking option available for the user for their order.Canteen admin can also add and edit different food items of canteen.
 
