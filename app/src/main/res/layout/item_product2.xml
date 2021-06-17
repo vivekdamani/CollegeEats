@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/po_item"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/po_item"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/total_tv"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/total_tv"
+        android:id="@+id/status_tv"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/po_item"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Status"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/po_total"
+        android:layout_below="@id/total_tv"
+
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/po_total"
+        android:id="@+id/status_value"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/total_tv"
+        android:textSize="20dp"
+
+
+
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_below="@+id/status_value"
+    android:background="@color/black"
+    android:layout_marginTop="15dp"
+    />
+
+
+</RelativeLayout>

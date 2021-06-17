@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pp"
+        android:text="My Profile"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/te1"
+        android:layout_below="@id/pp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/myname"
+        android:layout_below="@+id/te1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:id="@+id/te2"
+        android:layout_below="@id/myname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/mymobile"
+        android:layout_below="@+id/te2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/te3"
+        android:layout_below="@id/mymobile"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/myemail"
+        android:layout_below="@+id/te3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/te4"
+        android:layout_below="@id/myemail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/myaddress"
+        android:layout_below="@+id/te4"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/updateinfo"
+        android:layout_below="@id/myaddress"
+        android:layout_marginLeft="20dp"
+        android:text="Update Info"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/pastorders"
+        android:layout_below="@id/myaddress"
+        android:text="Past Orders"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>

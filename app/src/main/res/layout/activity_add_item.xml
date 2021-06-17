@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Add Item Information"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tadd"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add name"
+
+        android:layout_below="@+id/tadd"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ItemName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add price"
+        android:id="@+id/ItemPrice"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ItemName"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ItemImage"
+        android:layout_below="@id/ItemPrice"
+        android:scaleType="fitCenter"
+        />
+
+    <Button
+        android:id="@+id/AddImage"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/ItemImage"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="Add Image"
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/uploadItem"
+        android:text="upload item"
+        android:layout_below="@id/ItemImage"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+
+</RelativeLayout>

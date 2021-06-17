@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CollegeEats"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email Id"
+        android:id="@+id/EmailAddress"
+        />
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailAddress"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:id="@+id/Password"
+
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Sign_Up"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textSize="25dp"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
