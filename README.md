@@ -27,7 +27,7 @@ Android studio 4.0 or above and a Network connection
 8. Gives a list of pending orders to canteen admin with option to update status of order deleivery.
 
 
-#Libraries used
+# Libraries used
 1. Firebase auth
 2. Firebase database
 3. Fiebase cloud storage
